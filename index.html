@@ -3,43 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to Story Generator App</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to Story Generator App 🧖‍♀️</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter your text"
-          required
-          autofocus
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Here goes the story..</div>
-    </main>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter your text"
+            required
+            autofocus
+            autocomplete="off"
+            class="txt"
+          />
+          <input type="submit" class="btn" />
+        </form>
+        <div class="story">Here goes the story..</div>
+      </main>
 
-    <footer>
-      This project is made by
-      <a href="https://github.com/TrishaSabrina" target="_blank"
-        >Sabrina Trisha</a
-      >
-      and is open sourced on
-      <a
-        href="https://github.com/TrishaSabrina/World---clock----project"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://storygenereatorai.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project is made by
+        <a href="https://github.com/TrishaSabrina" target="_blank"
+          >Sabrina Trisha</a
+        >
+        and is open sourced on
+        <a
+          href="https://github.com/TrishaSabrina/World---clock----project"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://storygenereatorai.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
