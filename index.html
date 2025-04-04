@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Welcome to Story Generator App 🧖‍♀️</h1>
+        <h1>Welcome to Sheera 🧖‍♀️</h1>
+        <p>A Story Generator AI</p>
       </header>
 
       <main>
-        <form action="">
+        <form action="" id="form-input">
           <input
             type="text"
             placeholder="Enter your text"
@@ -22,9 +24,9 @@
             autocomplete="off"
             class="txt"
           />
-          <input type="submit" class="btn" />
+          <input type="submit" class="btn" id="btn" />
         </form>
-        <div class="story">Here goes the story..</div>
+        <div class="story" id="story">Here goes the story..</div>
       </main>
 
       <footer>
