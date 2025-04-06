@@ -21,5 +21,5 @@ function formSubmit(event) {
   axios.get(apiUrl).then(createStory);
 }
 
-let formInput = document.querySelector("#form-input");
+let formInput = document.querySelector("#btn");
 formInput.addEventListener("click", formSubmit);
