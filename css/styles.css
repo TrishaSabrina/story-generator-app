@@ -26,12 +26,13 @@ h1 {
 }
 
 form {
-  padding: 30px;
+  padding: 20px;
   background-color: white;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 5px;
   display: flex;
   margin-bottom: 30px;
+  border-style: ridge;
 }
 
 .txt {
