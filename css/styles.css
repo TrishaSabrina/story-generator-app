@@ -52,7 +52,9 @@ p {
 
   text-align: center;
 }
-
+strong {
+  color: rgb(247, 30, 200);
+}
 .btn {
   margin-left: 10px;
   background: linear-gradient(90deg, #5257e7 0%, #db54cd 100%);

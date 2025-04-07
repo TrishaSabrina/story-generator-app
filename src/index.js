@@ -27,5 +27,15 @@ function formSubmit(event) {
   axios.get(apiUrl).then(createStory);
 }
 
+new Typewriter("#type", {
+  strings: `<h1>Hi, I'm Sheera 🤖</h1>
+        <p>
+          your <strong>Story Generator AI</strong>. I can help you to build your
+          fantasy
+        </p>`,
+  autoStart: true,
+  delay: 19,
+  cursor: "",
+});
 let formInput = document.querySelector("#btn");
 formInput.addEventListener("click", formSubmit);
