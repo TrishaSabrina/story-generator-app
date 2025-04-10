@@ -22,7 +22,7 @@ function formSubmit(event) {
 
   let storyBuilding = document.querySelector("#story");
   storyBuilding.classList.remove("hidden");
-  storyBuilding.innerHTML = `<div class="wait">⏳Please wait, your required story is generating.. </div>`;
+  storyBuilding.innerHTML = `<div class="wait"><img src="./img/lg.gif" alt="" width="90">Please wait, your required story is generating.. </div>`;
 
   axios.get(apiUrl).then(createStory);
 }
@@ -37,5 +37,5 @@ new Typewriter("#type", {
   delay: 19,
   cursor: "",
 });
-let formInput = document.querySelector("#btn");
-formInput.addEventListener("click", formSubmit);
+let formInput = document.querySelector("#form-input");
+formInput.addEventListener("submit", formSubmit);
